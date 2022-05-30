@@ -44,6 +44,11 @@
             "Composer\\CaBundle\\": "tests"
         }
     },
+    "docker":{
+            "type": "vcs",
+            "url": "git@github.com:magento/magento-cloud-docker.git"
+          }},
+
     "extra": {
         "branch-alias": {
             "dev-main": "1.x-dev"
